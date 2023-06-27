@@ -8,11 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="px-4 py-2 text-primary">
-        Hello world 2306618598!
+    <h1 class="px-4 py-2 text-primary text-center">
+        Calculate your Body Mass Index (BMI)
     </h1>
-    <p class="text-primary-emphasis px-4">
-        Some Text
-    </p>
+    <form action="/" method="post" class="row justify-content-center">
+        <div class="col-md-3 align-self-center ml-5 text-center">
+            <input class="form-control mb-3" type="text" name="weight" placeholder="What is your weight (in kilograms)">
+            <input class="form-control mb-3" type="text" name="height" placeholder="What is your height (in centimeters)">
+            <button type="submit" name="submit" class="btn btn-primary m-auto">Calculate your BMI</button>
+        </div>
+    </form>
 </body>
 </html>
